@@ -11,10 +11,8 @@
 }
 
 .backDrop {
-  background-image: url("images/wood-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0px;
+  background-color: blue;
+  
  }
 
 .panel {
