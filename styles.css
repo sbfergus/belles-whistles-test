@@ -1,0 +1,257 @@
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.backDrop {
+  background-image: url("https://cdn.pixabay.com/photo/2018/02/20/10/29/wood-3167302_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+ }
+
+.panel {
+  border-radius: 0.3rem;
+  border: 5px solid #2e2e2e;
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.stripe {
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    border-top: 2px solid #999;
+}
+
+.jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.section {
+   margin: 0 auto;
+   width: 100%;
+   display: block;
+   background-color: #111;
+   display: none ;
+}
+
+.card img {
+  height: 200px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-facebook {
+  color: #3b5998
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #517fa4;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+  color: #d5d5d5
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+      
+hr.light {
+  border: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+
+hr.light-100 {
+  border: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+.textContainer {
+  overflow: hidden;
+  height: 30px;
+}
+
+.price-item-icon {
+  display: none;
+  position: absolute;
+  right: .93rem;
+  padding: 0.75rem;
+  background-color: #1e1e1e;
+  color: white;
+  border-bottom-left-radius: 1rem;
+  z-index: 2;
+  opacity: .7;
+ }
+
+.title-item-icon {
+  display: none;
+  position: absolute;
+  left: .945rem;
+  bottom: 2.0001rem;
+  padding: 0.75rem;
+  background-color: #1e1e1e;
+  color: white;
+  border-top-right-radius: 1rem;
+  z-index: 2;
+  opacity: .7;
+ }
+
+.thumbnail img {
+    height:200px;
+    width:100%;
+}
+
+.price-item-icon:hover, .title-item-icon:hover {
+  color: #22ad84;
+  cursor: pointer;
+}
+
+
+
+.imgInventory {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.imgInventory:hover {opacity: 0.7;}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.galleryCont {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.demo-column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo, .demo2, .demo3, .demo4, .demo5, .demo6 {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.active, .demo:hover, .demo2:hover, .demo3:hover, .demo4:hover, .demo5:hover, .demo6:hover {
+  opacity: 1;
+}
+
+
+
