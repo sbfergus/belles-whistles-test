@@ -1,10 +1,6 @@
-
-
 document.querySelector(".navbar-toggler").addEventListener("click", function(e){
   document.querySelector("#mobileMenu").classList.toggle("show");
  });
-
-
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -111,10 +107,3 @@ function showSlides(n) {
 
 
 
-//https://cdn.pixabay.com/photo/2018/02/20/10/29/wood-3167302_960_720.jpg
-//https://cdn.pixabay.com/photo/2016/07/29/08/47/abstract-1551421_960_720.jpg
-// <img src="https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804_960_720.jpg" class="img-fluid" alt="xxx" style="width: 100%;">
-//"https://cdn.pixabay.com/photo/2016/11/19/15/50/chair-1840011_960_720.jpg"
-//"https://cdn.pixabay.com/photo/2015/06/08/15/21/furniture-802031_960_720.jpg"
-//"https://cdn.pixabay.com/photo/2017/02/16/13/41/architect-2071534_960_720.jpg"
-//"https://cdn.pixabay.com/photo/2015/03/17/02/05/furniture-677103_960_720.jpg"
