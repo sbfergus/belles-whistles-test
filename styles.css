@@ -15,7 +15,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0px;
-  
  }
 
 .panel {
@@ -132,8 +131,6 @@ hr.light-100 {
   color: #22ad84;
   cursor: pointer;
 }
-
-
 
 .imgInventory {
   cursor: pointer;
